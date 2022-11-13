@@ -1,0 +1,184 @@
+ /*CSS HEX 
+--bistre: #403229ff;
+--van-dyke-brown: #654533ff;
+--camel: #BE997Aff;
+--tan: #D8B695ff;
+--bone: #DCCDBAff;
+*/
+@font-face {
+font-family: "wire one";
+src: url("fonts/wireone-regular-webfont.woff") format("woff"),
+url("fonts/WireOne-Regular.ttf") format("ttf");
+}
+
+body{
+    background-color:#DCCDBAff; 
+    /*backdrop-filter: blur(5px);*/
+    height: 100uv;
+    padding: 0px;
+    margin:0px;
+    position: relative;
+    font-family: 'wire one', Courier, monospace;
+    color:#403229ff;
+    justify-content: center;
+
+}
+.wlcmpage{
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    font-family: 'wire one', Courier, monospace;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    margin: auto;
+    width: 100%;
+    border: 1px solid #403229ff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+#mainnav{
+    padding-right: 0px;
+    border-radius: 0%;
+
+
+}
+#navul{
+    padding-right:00px;
+    padding-left: 130px;
+}
+.bg{
+    filter: blur(4px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin: auto;
+    width: 100%;
+    
+}
+li{
+    display: inline;
+    padding: 10px;
+    padding-right:100px;
+    padding-left: 100px;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 0px;
+    color:#654533ff;
+}
+
+
+/*a:visited {
+    color:#403229ff;
+}*/
+
+a:focus {
+    color:#403229ff;
+}
+
+a:hover {
+    color:#BE997Aff;
+}
+
+a:active {
+    color:#D8B695ff;
+}
+#maindiv{
+    position: relative;
+    margin: 10%;
+    background-color: #DCCDBAE0;
+    box-shadow: burlywood;
+    height: 500px;
+    border-radius: 10px;
+}
+#mainimg{
+    position:absolute;
+    margin: 100px;
+    
+}
+#mirror{
+    position:absolute;
+    margin: 45px;
+    margin-top: 45px;
+    
+}
+.image {
+    border-radius: 50%;
+  }
+#wlcmtxt{
+      font-family: 'wire one', Courier, monospace;
+      font-size: 50px;
+      float: right;
+      margin-left: 650px;
+      margin-top: 70px ;
+      position: absolute;
+}
+#queendom{
+    float: right;
+    font-size: 40px;
+    margin-top: 180px;
+    margin-left: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+}
+#shopbtn{
+    float:right;
+    font-family: 'wire one', Courier, monospace;
+    font-size: 50px;
+    margin-left: 400px;
+    margin-top: 30px;
+   
+}
+#logonav{
+    margin-top: 10px;
+}
+header{
+    height: 200px;
+    background-image:url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+#queentxt{
+    color:#403229ff;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 50%;
+    text-shadow: 1px 1px 5px #DCCDBAff;
+}
+
+
+footer{
+    background-color: #403229ff;
+    height: 200px;
+    
+}
+.icons{
+    margin: auto;
+    width: 140px;
+   
+    
+}
+.icon{
+    padding: 10px;
+}
